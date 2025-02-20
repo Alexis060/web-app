@@ -1,24 +1,24 @@
-(function(window) {
-  window["env"] = window["env"] || {};
+(function (window) {
+  window['env'] = window['env'] || {};
 
   // BackEnd Environment variables
-  window["env"]["fineractApiUrls"] = '';
-  window["env"]["fineractApiUrl"]  = '';
+  window['env']['fineractApiUrls'] = 'https://sandbox.mifos.community';
+  window['env']['fineractApiUrl'] = 'https://sandbox.mifos.community';
 
-  window["env"]["apiProvider"] = '';
-  window["env"]["apiVersion"]  = '';
+  window['env']['apiProvider'] = '/fineract-provider/api';
+  window['env']['apiVersion'] = '/v1';
 
-  window["env"]["fineractPlatformTenantId"]  = '';
-  window["env"]["fineractPlatformTenantIds"]  = '';
+  window['env']['fineractPlatformTenantId'] = 'default';
+  window['env']['fineractPlatformTenantIds'] = '';
 
   // Language Environment variables
-  window["env"]["defaultLanguage"] = '';
-  window["env"]["supportedLanguages"] = '';
+  window['env']['defaultLanguage'] = 'en-US';
+  window['env']['supportedLanguages'] = 'cs-CS,de-DE,en-US,es-MX,fr-FR,it-IT,ko-KO,li-LI,lv-LV,ne-NE,pt-PT,sw-SW';
 
-  window['env']['preloadClients'] = '';
+  window['env']['preloadClients'] = 'true';
 
   // Char delimiter to Export CSV options: ',' ';' '|' ' '
-  window['env']['defaultCharDelimiter'] = '';
+  window['env']['defaultCharDelimiter'] = ',';
 
   // Display or not the BackEnd Info
   window['env']['displayBackEndInfo'] = '';
@@ -33,7 +33,7 @@
   window['env']['waitTimeForCOBCatchUp'] = '';
 
   // Time in milliseconds for Session idle timeout, default 300000 seconds
-  window['env']['sessionIdleTimeout'] = '0';
+  window['env']['sessionIdleTimeout'] = '';
 
   // OAuth Server Enabled  
   window['env']['oauthServerEnabled'] = '';
